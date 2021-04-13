@@ -1,0 +1,119 @@
+/*Colors and fonts */
+body{
+	background-color: white;
+ 	color: #2f5d62;
+ 	font-family: 'Montserrat', sans-serif;
+ 	font-size: 22px;
+ 	line-height: 1.6;
+ 	text-align: center;
+  }
+
+ h1, h2 {
+ 	font-family: 'Quicksand', sans-serif;
+ 	color: #206a5d;
+ }
+
+ h1{
+ 	letter-spacing: 5px;
+ 	font-size: 38px;
+ 	font-weight: 1500
+ }
+
+h2{
+		letter-spacing: 2px;
+		font-size: 28px;
+		font-weight: 900;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(50, 50, 50);
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px
+}
+
+a:hover{
+	color: #e84545
+}
+
+/*Custom design with class */
+
+.container{
+	width: 1500px;
+	margin: 40px auto;
+}
+#card-header, .card-grey{
+	padding: 30px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+	text-align: center;
+	margin: 15px auto;
+}
+
+#card-header{
+	border: 3px outset #d2e69c;
+	background-image: radial-gradient(circle at 51.36% 42.27%, #ffffcb 0, #ffffc4 16.67%, #ffffbc 33.33%, #f9ffb4 50%, #e0ecac 66.67%, #cbdba4 83.33%, #b8cb9e 100%);
+	border-radius:5px;
+}
+
+.card-grey{
+	border: 1px outset #d2e69c;
+	background: #F9FFB4;
+	border-radius:10px;
+	
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-grey{
+	background-color:#8db596;
+	color:black;
+	padding:15px 20px;
+	border-radius: 5px;
+}
+
+.btn-grey:hover{
+	background-color:#16697a;
+	color:white;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px
+}
+
+.list-inline i{
+	font-size: 70px;
+	color: #8db596;
+}
+
+.list-inline i:hover{
+	color:#16697a 
+}
+
+/*Design adjustemnet using id*/
+
+#card-header p{
+	margin-bottom: 40px;
+}
+
+
+/*Media adjustement*/
+
+@media (max-width: 900px){
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 700px){
+	.container{
+		width: 550px;
+	}
+}
